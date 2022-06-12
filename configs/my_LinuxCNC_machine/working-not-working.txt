@@ -1,0 +1,13 @@
+Working:
+RESET
+Stop
+Start/Pause
+Feed+
+Feed-
+Spindle+
+Spindle-
+S-ON/OFF
+
+Not working:
+Select Axis knob
+Hand wheel
