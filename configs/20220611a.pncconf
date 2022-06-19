@@ -110,11 +110,11 @@
   <property name="cbencoder_pulley" type="string" value="64328"/>
   <property name="cbencoder_tpi" type="string" value="64326"/>
   <property name="cbencoder_worm" type="string" value="64327"/>
-  <property name="cbmicrosteps" type="string" value="64440"/>
-  <property name="cbmotor_gear1" type="string" value="64441"/>
-  <property name="cbmotor_gear2" type="string" value="64442"/>
+  <property name="cbmicrosteps" type="string" value="64840"/>
+  <property name="cbmotor_gear1" type="string" value="64841"/>
+  <property name="cbmotor_gear2" type="string" value="64842"/>
   <property name="cbmotor_pitch" type="string" value="64329"/>
-  <property name="cbmotor_pulley" type="string" value="64443"/>
+  <property name="cbmotor_pulley" type="string" value="64843"/>
   <property name="cbmotor_tpi" type="string" value="64330"/>
   <property name="cbmotor_worm" type="string" value="64332"/>
   <property name="centerembededgvcp" type="bool" value="True"/>
@@ -137,7 +137,7 @@
   <property name="encoder_pulleydriver" type="string" value="64316"/>
   <property name="encoder_wormdriven" type="string" value="64313"/>
   <property name="encoder_wormdriver" type="string" value="64314"/>
-  <property name="encoderline" type="string" value="64430"/>
+  <property name="encoderline" type="string" value="64830"/>
   <property name="externalfo" type="bool" value="False"/>
   <property name="externaljog" type="bool" value="False"/>
   <property name="externalmpg" type="bool" value="False"/>
@@ -960,7 +960,7 @@
   <property name="mesa0sserial0_0pin0" type="string" value="estop-ext"/>
   <property name="mesa0sserial0_0pin0inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin0type" type="string" value="GPIO Input"/>
-  <property name="mesa0sserial0_0pin1" type="string" value="unused-input"/>
+  <property name="mesa0sserial0_0pin1" type="string" value="all-limit"/>
   <property name="mesa0sserial0_0pin10" type="string" value="unused-input"/>
   <property name="mesa0sserial0_0pin10inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin10type" type="string" value="GPIO Input"/>
@@ -979,28 +979,28 @@
   <property name="mesa0sserial0_0pin15" type="string" value="unused-input"/>
   <property name="mesa0sserial0_0pin15inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin15type" type="string" value="GPIO Input"/>
-  <property name="mesa0sserial0_0pin16" type="string" value="machine-is-enabled"/>
+  <property name="mesa0sserial0_0pin16" type="string" value="force-pin-true"/>
   <property name="mesa0sserial0_0pin16inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin16type" type="string" value="GPIO Output"/>
-  <property name="mesa0sserial0_0pin17" type="string" value="spindle-enable"/>
+  <property name="mesa0sserial0_0pin17" type="string" value="machine-is-enabled"/>
   <property name="mesa0sserial0_0pin17inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin17type" type="string" value="GPIO Output"/>
-  <property name="mesa0sserial0_0pin18" type="string" value="force-pin-true"/>
+  <property name="mesa0sserial0_0pin18" type="string" value="spindle-cw"/>
   <property name="mesa0sserial0_0pin18inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin18type" type="string" value="GPIO Output"/>
-  <property name="mesa0sserial0_0pin19" type="string" value="unused-output"/>
+  <property name="mesa0sserial0_0pin19" type="string" value="spindle-ccw"/>
   <property name="mesa0sserial0_0pin19inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin19type" type="string" value="GPIO Output"/>
   <property name="mesa0sserial0_0pin1inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin1type" type="string" value="GPIO Input"/>
   <property name="mesa0sserial0_0pin2" type="string" value="unused-input"/>
-  <property name="mesa0sserial0_0pin20" type="string" value="unused-output"/>
+  <property name="mesa0sserial0_0pin20" type="string" value="coolant-flood"/>
   <property name="mesa0sserial0_0pin20inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin20type" type="string" value="GPIO Output"/>
   <property name="mesa0sserial0_0pin21" type="string" value="unused-output"/>
   <property name="mesa0sserial0_0pin21inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin21type" type="string" value="GPIO Output"/>
-  <property name="mesa0sserial0_0pin22" type="string" value="unused-output"/>
+  <property name="mesa0sserial0_0pin22" type="string" value="coolant-mist"/>
   <property name="mesa0sserial0_0pin22inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin22type" type="string" value="GPIO Output"/>
   <property name="mesa0sserial0_0pin23" type="string" value="unused-output"/>
@@ -1026,7 +1026,7 @@
   <property name="mesa0sserial0_0pin29type" type="string" value="GPIO Input"/>
   <property name="mesa0sserial0_0pin2inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin2type" type="string" value="GPIO Input"/>
-  <property name="mesa0sserial0_0pin3" type="string" value="unused-input"/>
+  <property name="mesa0sserial0_0pin3" type="string" value="home-x"/>
   <property name="mesa0sserial0_0pin30" type="string" value="unused-input"/>
   <property name="mesa0sserial0_0pin30inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin30type" type="string" value="GPIO Input"/>
@@ -1059,7 +1059,7 @@
   <property name="mesa0sserial0_0pin39type" type="string" value="GPIO Input"/>
   <property name="mesa0sserial0_0pin3inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin3type" type="string" value="GPIO Input"/>
-  <property name="mesa0sserial0_0pin4" type="string" value="unused-input"/>
+  <property name="mesa0sserial0_0pin4" type="string" value="home-y"/>
   <property name="mesa0sserial0_0pin40" type="string" value="unused-output"/>
   <property name="mesa0sserial0_0pin40inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin40type" type="string" value="GPIO Output"/>
@@ -1092,7 +1092,7 @@
   <property name="mesa0sserial0_0pin49type" type="string" value="POT Enable"/>
   <property name="mesa0sserial0_0pin4inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin4type" type="string" value="GPIO Input"/>
-  <property name="mesa0sserial0_0pin5" type="string" value="unused-input"/>
+  <property name="mesa0sserial0_0pin5" type="string" value="home-z"/>
   <property name="mesa0sserial0_0pin50" type="string" value="unused-unused"/>
   <property name="mesa0sserial0_0pin50inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin50type" type="string" value="Not Used"/>
@@ -3794,7 +3794,7 @@
   <property name="mesa1sserial0_5pin9inv" type="bool" value="False"/>
   <property name="mesa1sserial0_5pin9type" type="string" value="GPIO Input"/>
   <property name="mesa1sserial0_5subboard" type="string" value="none"/>
-  <property name="microstep" type="string" value="64432"/>
+  <property name="microstep" type="string" value="64832"/>
   <property name="min_angular_velocity" type="float" value="1.66666666667"/>
   <property name="min_linear_velocity" type="float" value="0.01667"/>
   <property name="min_spindle_override" type="float" value="0.5"/>
@@ -3805,15 +3805,15 @@
   <property name="mitsub_vfd_id" type="string" value="('spindle_vfd', 1)"/>
   <property name="mitsub_vfd_port" type="string" value="/dev/ttyS0"/>
   <property name="modbus" type="int" value="0"/>
-  <property name="motor_gear1driven" type="string" value="64433"/>
-  <property name="motor_gear1driver" type="string" value="64434"/>
-  <property name="motor_gear2driven" type="string" value="64435"/>
-  <property name="motor_gear2driver" type="string" value="64436"/>
+  <property name="motor_gear1driven" type="string" value="64833"/>
+  <property name="motor_gear1driver" type="string" value="64834"/>
+  <property name="motor_gear2driven" type="string" value="64835"/>
+  <property name="motor_gear2driver" type="string" value="64836"/>
   <property name="motor_leadscrew" type="string" value="64318"/>
   <property name="motor_leadscrew_tpi" type="string" value="64319"/>
-  <property name="motor_max" type="string" value="64439"/>
-  <property name="motor_pulleydriven" type="string" value="64437"/>
-  <property name="motor_pulleydriver" type="string" value="64438"/>
+  <property name="motor_max" type="string" value="64839"/>
+  <property name="motor_pulleydriven" type="string" value="64837"/>
+  <property name="motor_pulleydriver" type="string" value="64838"/>
   <property name="motor_wormdriven" type="string" value="64321"/>
   <property name="motor_wormdriver" type="string" value="64322"/>
   <property name="mpgdebounce" type="bool" value="True"/>
@@ -4040,7 +4040,7 @@
   <property name="pyvcpypos" type="float" value="0.0"/>
   <property name="raise_z_on_toolchange" type="bool" value="False"/>
   <property name="random_toolchanger" type="bool" value="False"/>
-  <property name="rbvoltage_5" type="string" value="64444"/>
+  <property name="rbvoltage_5" type="string" value="64844"/>
   <property name="require_homing" type="bool" value="True"/>
   <property name="restore_joint_position" type="bool" value="False"/>
   <property name="s32in" type="int" value="10"/>
@@ -4155,7 +4155,7 @@
   <property name="sstepspace" type="float" value="5000.0"/>
   <property name="ssteptime" type="float" value="5000.0"/>
   <property name="standalonegvcp" type="bool" value="False"/>
-  <property name="steprev" type="string" value="64431"/>
+  <property name="steprev" type="string" value="64831"/>
   <property name="stepspace" type="int" value="5000"/>
   <property name="steptime" type="int" value="5000"/>
   <property name="suseatspeed" type="bool" value="False"/>
@@ -4163,7 +4163,7 @@
   <property name="susecomp" type="int" value="0"/>
   <property name="susehomeindex" type="int" value="0"/>
   <property name="susenearrange" type="bool" value="True"/>
-  <property name="susenegativevoltage" type="bool" value="True"/>
+  <property name="susenegativevoltage" type="bool" value="False"/>
   <property name="suseoutputrange2" type="bool" value="False"/>
   <property name="tempexists" type="int" value="0"/>
   <property name="toolchangeprompt" type="bool" value="True"/>
