@@ -4104,7 +4104,7 @@
   <property name="sideembededgvcp" type="bool" value="True"/>
   <property name="singlejogbuttons" type="bool" value="False"/>
   <property name="sinvertencoder" type="bool" value="False"/>
-  <property name="sinvertmotor" type="bool" value="True"/>
+  <property name="sinvertmotor" type="bool" value="False"/>
   <property name="slatchdir" type="int" value="0"/>
   <property name="smaxacc" type="float" value="300.0"/>
   <property name="smaxoutput" type="float" value="3850.0"/>
