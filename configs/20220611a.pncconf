@@ -237,7 +237,7 @@
   <property name="halui_cmd7" type="string" value=""/>
   <property name="halui_cmd8" type="string" value=""/>
   <property name="halui_cmd9" type="string" value=""/>
-  <property name="help" type="string" value="help-axisconfig.txt"/>
+  <property name="help" type="string" value="help-axismotor.txt"/>
   <property name="homeboth" type="bool" value="False"/>
   <property name="homeindex" type="bool" value="False"/>
   <property name="homenone" type="bool" value="True"/>
@@ -1060,10 +1060,10 @@
   <property name="mesa0sserial0_0pin3inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin3type" type="string" value="GPIO Input"/>
   <property name="mesa0sserial0_0pin4" type="string" value="home-y"/>
-  <property name="mesa0sserial0_0pin40" type="string" value="unused-output"/>
+  <property name="mesa0sserial0_0pin40" type="string" value="spindle-cw"/>
   <property name="mesa0sserial0_0pin40inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin40type" type="string" value="GPIO Output"/>
-  <property name="mesa0sserial0_0pin41" type="string" value="unused-output"/>
+  <property name="mesa0sserial0_0pin41" type="string" value="spindle-ccw"/>
   <property name="mesa0sserial0_0pin41inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin41type" type="string" value="GPIO Output"/>
   <property name="mesa0sserial0_0pin42" type="string" value="unused-output"/>
@@ -4244,10 +4244,10 @@
   <property name="xencoder_wormdriver" type="float" value="1.0"/>
   <property name="xencodercounts" type="int" value="4000"/>
   <property name="xencoderscale" type="int" value="0"/>
-  <property name="xhomefinalvel" type="float" value="0.0"/>
-  <property name="xhomelatchvel" type="float" value="0.0166666666667"/>
-  <property name="xhomepos" type="float" value="0.0"/>
-  <property name="xhomesearchvel" type="float" value="0.5"/>
+  <property name="xhomefinalvel" type="float" value="2.5"/>
+  <property name="xhomelatchvel" type="float" value="0.0666666666667"/>
+  <property name="xhomepos" type="float" value="-16.0"/>
+  <property name="xhomesearchvel" type="float" value="1.31666666667"/>
   <property name="xhomesequence" type="float" value="1.0"/>
   <property name="xhomesw" type="float" value="0.0"/>
   <property name="xhometandemsw" type="float" value="0.0"/>
@@ -4274,7 +4274,7 @@
   <property name="xoutputscale" type="float" value="10.0"/>
   <property name="xsearchdir" type="int" value="0"/>
   <property name="xsteprev" type="float" value="800.0"/>
-  <property name="xstepscale" type="float" value="16000.0"/>
+  <property name="xstepscale" type="float" value="16250.0"/>
   <property name="xstepspace" type="float" value="5000.0"/>
   <property name="xsteptime" type="float" value="5000.0"/>
   <property name="xusebacklash" type="bool" value="False"/>
@@ -4339,9 +4339,9 @@
   <property name="yencodercounts" type="int" value="4000"/>
   <property name="yencoderscale" type="int" value="0"/>
   <property name="yhomefinalvel" type="float" value="0.0"/>
-  <property name="yhomelatchvel" type="float" value="0.0166666666667"/>
-  <property name="yhomepos" type="float" value="0.0"/>
-  <property name="yhomesearchvel" type="float" value="0.5"/>
+  <property name="yhomelatchvel" type="float" value="0.0666666666667"/>
+  <property name="yhomepos" type="float" value="-2.5"/>
+  <property name="yhomesearchvel" type="float" value="1.31666666667"/>
   <property name="yhomesequence" type="float" value="2.0"/>
   <property name="yhomesw" type="float" value="0.0"/>
   <property name="yhometandemsw" type="float" value="0.0"/>
@@ -4368,7 +4368,7 @@
   <property name="youtputscale" type="float" value="10.0"/>
   <property name="ysearchdir" type="int" value="0"/>
   <property name="ysteprev" type="float" value="800.0"/>
-  <property name="ystepscale" type="float" value="16000.0"/>
+  <property name="ystepscale" type="float" value="16250.0"/>
   <property name="ystepspace" type="float" value="5000.0"/>
   <property name="ysteptime" type="float" value="5000.0"/>
   <property name="yusebacklash" type="bool" value="False"/>
@@ -4437,9 +4437,9 @@
   <property name="zeroy" type="bool" value="True"/>
   <property name="zeroz" type="bool" value="True"/>
   <property name="zhomefinalvel" type="float" value="0.0"/>
-  <property name="zhomelatchvel" type="float" value="0.0166666666667"/>
+  <property name="zhomelatchvel" type="float" value="0.0666666666667"/>
   <property name="zhomepos" type="float" value="0.0"/>
-  <property name="zhomesearchvel" type="float" value="0.166666666667"/>
+  <property name="zhomesearchvel" type="float" value="1.31666666667"/>
   <property name="zhomesequence" type="float" value="0.0"/>
   <property name="zhomesw" type="float" value="0.0"/>
   <property name="zhometandemsw" type="float" value="0.0"/>
@@ -4466,7 +4466,7 @@
   <property name="zoutputscale" type="float" value="10.0"/>
   <property name="zsearchdir" type="int" value="0"/>
   <property name="zsteprev" type="float" value="800.0"/>
-  <property name="zstepscale" type="float" value="16000.0"/>
+  <property name="zstepscale" type="float" value="16250.0"/>
   <property name="zstepspace" type="float" value="5000.0"/>
   <property name="zsteptime" type="float" value="5000.0"/>
   <property name="zusebacklash" type="bool" value="False"/>
