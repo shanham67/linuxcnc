@@ -979,7 +979,7 @@
   <property name="mesa0sserial0_0pin15" type="string" value="unused-input"/>
   <property name="mesa0sserial0_0pin15inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin15type" type="string" value="GPIO Input"/>
-  <property name="mesa0sserial0_0pin16" type="string" value="force-pin-true"/>
+  <property name="mesa0sserial0_0pin16" type="string" value="estop-out"/>
   <property name="mesa0sserial0_0pin16inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin16type" type="string" value="GPIO Output"/>
   <property name="mesa0sserial0_0pin17" type="string" value="machine-is-enabled"/>
