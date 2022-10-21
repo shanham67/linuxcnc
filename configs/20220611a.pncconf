@@ -1060,10 +1060,10 @@
   <property name="mesa0sserial0_0pin3inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin3type" type="string" value="GPIO Input"/>
   <property name="mesa0sserial0_0pin4" type="string" value="home-y"/>
-  <property name="mesa0sserial0_0pin40" type="string" value="spindle-cw"/>
+  <property name="mesa0sserial0_0pin40" type="string" value="unused-output"/>
   <property name="mesa0sserial0_0pin40inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin40type" type="string" value="GPIO Output"/>
-  <property name="mesa0sserial0_0pin41" type="string" value="spindle-ccw"/>
+  <property name="mesa0sserial0_0pin41" type="string" value="unused-output"/>
   <property name="mesa0sserial0_0pin41inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin41type" type="string" value="GPIO Output"/>
   <property name="mesa0sserial0_0pin42" type="string" value="unused-output"/>
